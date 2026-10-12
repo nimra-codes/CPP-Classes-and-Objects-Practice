@@ -2,7 +2,7 @@
 
 A collection of C++ programs focused on **Object-Oriented Programming (OOP)**, specifically **Classes and Objects**.
 
-These problems are designed to build a strong foundation in one of the most important concepts of C++ OOP.
+These problems are designed to build a strong foundation in one of the most important concepts of OOP.
 
 ## Topics Covered
 
