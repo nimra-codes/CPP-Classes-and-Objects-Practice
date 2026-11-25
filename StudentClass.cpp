@@ -10,25 +10,26 @@ class Student{
 
     void getData()
     {
-        cout<<"Enter Student ID: ";
+        cout<<"\nEnter Student ID: ";
         getline(cin, id);
         cout<<"Enter Student Name: ";
         getline(cin, name);
         cout<<"Enter marks: ";
         cin>>marks;
 
-        while(marks<0 || marks >100)
+        while(marks<0 || marks >100) //marks validation
         {
             cout<<"Invalid marks. Please Enter marks (0-100): ";
             cin>>marks;
         }
+        cin.ignore();
     }
 
     char calculateGrades();
 
     void displayData()
       {
-        cout<<"\n\n--------------------Student Details--------------------"<<endl;
+        cout<<"\n\n--------------------Student Report--------------------"<<endl;
         cout<<"Student ID: "<<id<<endl;
         cout<<"Name: "<<name<<endl;
         cout<<"Marks: "<<marks<<endl;
@@ -60,8 +61,12 @@ char Student::calculateGrades()
 int main()
 {
     
-    Student s1;
+    Student s1, s2;
     s1.getData();
+    s2.getData();
+
     s1.displayData();
+    s2.displayData();
+
     return 0;
 }
