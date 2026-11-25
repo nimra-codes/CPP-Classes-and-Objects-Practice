@@ -1,92 +1,95 @@
-# OOP - Classes & Objects
 
-A collection of C++ programs focused on **Object-Oriented Programming (OOP)**, specifically **Classes and Objects**.
+# C++ OOP Practice – Phase 1: Classes and Objects
 
-These problems are designed to build a strong foundation in one of the most important concepts of OOP.
+Welcome to **Phase 1 of my C++ Object-Oriented Programming (OOP) practice repository!**
 
-## Topics Covered
+This section focuses on understanding the fundamentals of **Classes and Objects** in C++. Through practical programming problems, I am strengthening my understanding of how to create classes, define objects, and implement member functions.
 
-* Classes
-* Objects
-* Data members
-* Member functions
-* Constructors
-* Basic encapsulation
-* Conditional statements
-* Functions
-* Basic calculations
-* Object state management
+## 🎯 Learning Objectives
 
-## Problems
+- Understand the concept of classes and objects.
+- Learn how to define data members and member functions.
+- Practice creating multiple objects from a single class.
+- Understand how objects interact with functions.
+- Learn about static data members and static member functions.
+- Improve problem-solving and logical thinking using C++.
 
-### 01 - Student Class
+## 📚 Topics Covered
 
-Create a `Student` class containing:
+| # | Topic | Description |
+|---|-------|-------------|
+| 01 | Classes and Objects | Create a `Student` class with name, roll number, marks, and `input()` and `display()` methods. |
+| 02 | Rectangle Class | Calculate area and perimeter. Create three objects and compare them. |
+| 03 | BankAccount | Implement basic `deposit()`, `withdraw()`, and `getBalance()` functions. |
+| 04 | Complex Numbers | Add and subtract two complex numbers using member functions. |
+| 05 | Array of Objects | Store five `Employee` objects and find the highest-paid employee. |
+| 06 | Objects as Function Arguments | Create a `Distance` class (feet and inches) and add two objects using a function. |
+| 07 | Returning Objects | Create a `Time` class where `addTime(Time)` returns a new `Time` object. |
+| 08 | Static Members | Create a `Counter` class to track the number of existing objects using a static variable and static function. |
 
-* Name
-* Roll number
-* Marks
-* Grade calculation function
+## 🛠️ Technologies Used
 
-The program creates a student object and calculates the student's grade based on marks.
+- **Language:** C++
+- **Concept:** Object-Oriented Programming
+- **Compiler:** GCC / G++
+- **IDE:** Visual Studio Code
 
-### 02 - BankAccount Class
+## 📂 Repository Structure
 
-Create a `BankAccount` class that supports:
+```text
+Phase-01-Classes-and-Objects/
+│
+├── 01_Student_Class/
+│   └── main.cpp
+│
+├── 02_Rectangle_Class/
+│   └── main.cpp
+│
+├── 03_BankAccount/
+│   └── main.cpp
+│
+├── 04_Complex_Number/
+│   └── main.cpp
+│
+├── 05_Array_of_Objects/
+│   └── main.cpp
+│
+├── 06_Objects_As_Function_Arguments/
+│   └── main.cpp
+│
+├── 07_Returning_Objects/
+│   └── main.cpp
+│
+├── 08_Static_Members/
+│   └── main.cpp
+│
+└── README.md
+```
 
-* Deposit
-* Withdraw
-* Balance check
+## 💡 Key Takeaways
 
-The program demonstrates how an object's balance can be modified through member functions.
+By completing these exercises, I aim to develop a strong foundation in:
 
-### 03 - Rectangle Class
+- Designing reusable classes.
+- Creating and managing objects.
+- Working with object-based functions.
+- Understanding object creation and static members.
+- Applying OOP concepts to real-world programming scenarios.
 
-Create a `Rectangle` class to calculate:
+## 🚀 My Learning Journey
 
-* Area
-* Perimeter
+I believe the best way to understand programming concepts is through consistent practice and implementation.
 
-The program takes length and width and performs the required calculations using class methods.
+This repository documents my progress, practical implementations, and continuous learning in C++ and Object-Oriented Programming.
 
-### 04 - Employee Class
+**One concept at a time. One problem at a time. One step closer to becoming a better developer!**
 
-Create an `Employee` class that calculates salary after adding a bonus.
+---
 
-The program demonstrates using object data to perform salary calculations.
+⭐ If you find this repository helpful, feel free to explore the code, share feedback, and connect with me.
 
-### 05 - Car Class
+**Author:** Nimra Rab Nawaz
 
-Create a `Car` class with functions to:
+**GitHub:** [nimra-codes](https://github.com/nimra-codes)
 
-* Start the car
-* Stop the car
-* Display car information
-
-The program demonstrates changing and displaying the state of an object.
-
-### 06 - Book Class
-
-Create a `Book` class with an issue and return system.
-
-The program demonstrates how an object's status can change using member functions.
-
-## Purpose
-
-The purpose of this repository is to practice the fundamentals of **Classes and Objects in C++** before moving toward more advanced OOP concepts such as:
-
-* Constructors
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-
-## Language
-
-**C++**
-
-## Author
-
-**Nimra Rab Nawaz**
-
-Software Engineering Student | Aspiring Web Developer & AI Engineer
+**LinkedIn:** [Connect with me](https://www.linkedin.com/in/nimra-rab-nawaz-b7a1b23b7)
